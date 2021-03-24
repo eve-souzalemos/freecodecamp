@@ -16,7 +16,50 @@
         <h1 id="title">Programador Survey Form</h1>
         <p id="description">Programador, obrigado por responder este formulário e contribuir com a comunidade</p>
       </section>
+      <form id="survey-form">
+        <div>
+          <label id="name-label" for="name">Nome
+            <input id="name" type="text" required placeholder="Nome">
+          </label>
+        </div>
+        <div>
+          <label id="email-label" for="email">E-mail
+            <input id="email" type="email" required placeholder="E-mail">
+          </label>
+        </div>
+        <div>
+          <label id="number-label" for="number">Idade
+            <input id="number" type="number" min="1" max="99" placeholder="Idade">
+          </label>
+        </div>
+        <div>
+          <label for="dropdown">Qual o seu lado da força?</label>
+          <select id="dropdown">
+            <option disabled selected>Escolha uma opção</option>
+            <option value="frontend">Front-End</option>
+            <option value="backend">Back-End</option>
+            <option value="fullstack">Full-Stack</option>
+            <option value="mobile">Mobile</option>
+            <option value="other">Outro</option>
+          </select>
+        </div>
+        <div>
+          <p>Qual o seu nível?</p>
+          <label for="junior">
+            <input id="junior" type="radio" name="level">
+            Júnior
+          </label>
+          <label for="pleno">
+            <input id="pĺeno" type="radio" name="level">
+            Pleno
+          </label>
+          <label for="senior">
+            <input id="senior" type="radio" name="level">
+            Sênio
+          </label>
+        </div>
 
+      </form>
     </div>
   </main>
 </body>
