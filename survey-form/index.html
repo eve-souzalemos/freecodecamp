@@ -33,30 +33,82 @@
           </label>
         </div>
         <div>
-          <label for="dropdown">Qual o seu lado da força?</label>
+          <p>Qual o seu lado da força?</p>
           <select id="dropdown">
             <option disabled selected>Escolha uma opção</option>
             <option value="frontend">Front-End</option>
             <option value="backend">Back-End</option>
             <option value="fullstack">Full-Stack</option>
-            <option value="mobile">Mobile</option>
-            <option value="other">Outro</option>
           </select>
         </div>
         <div>
           <p>Qual o seu nível?</p>
-          <label for="junior">
-            <input id="junior" type="radio" name="level">
+          <label>
+            <input type="radio" name="level" value="junior">
             Júnior
           </label>
-          <label for="pleno">
-            <input id="pĺeno" type="radio" name="level">
+          <label>
+            <input type="radio" name="level" value="pleno">
             Pleno
           </label>
-          <label for="senior">
-            <input id="senior" type="radio" name="level">
+          <label>
+            <input type="radio" name="level" value="senior">
             Sênio
           </label>
+        </div>
+        <div>
+          <p>Frameworks</p>
+          <label>
+            <input type="checkbox" name="preferencias" value="react">
+            React
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="vue">
+            Vue
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="Angular">
+            Angular
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="bootstrap">
+            Bootstrap
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="tailwind">
+            Tailwind
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="Spring">
+            Spring
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="django">
+            Django
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="flask">
+            Flask
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="nodejs">
+            NodeJS
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="rails">
+            RubyOnRails
+          </label>
+          <label>
+            <input type="checkbox" name="preferencias" value="outro">
+            Outro
+          </label>
+        </div>
+        <div id="textarea">
+          <p>Comentários</p>
+          <textarea name="comments" placeholder="Escreva aqui."></textarea>
+        </div>
+        <div>
+          <button type="submit" id="submit">Enviar</button>
         </div>
 
       </form>
