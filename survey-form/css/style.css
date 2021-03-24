@@ -1,0 +1,40 @@
+/* RESET */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+/**************************************/
+
+body {
+  background: #b19cd9;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 960px;
+  margin: 150px auto;
+  padding: 10px;
+}
+
+/* TITLE */
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.title .title__main {
+  font-weight: bold;
+  font-size: 2.25em;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+.title .title__subtitle {
+  font-style: italic;
+  font-size: 1.125em;
+}
+
