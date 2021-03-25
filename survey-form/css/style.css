@@ -9,12 +9,12 @@
 /**************************************/
 
 body {
-  background: #b19cd9;
+  background: #00aae4;
   color: #ffffff;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 720px;
   margin: 150px auto;
   padding: 10px;
 }
@@ -26,15 +26,46 @@ body {
   margin-bottom: 25px;
 }
 
-.title .title__main {
+.title__main {
   font-weight: bold;
   font-size: 2.25em;
+  letter-spacing: .1em;
   line-height: 1.5em;
   margin-bottom: 10px;
 }
 
-.title .title__subtitle {
+.title__subtitle {
   font-style: italic;
   font-size: 1.125em;
+  text-align: center;
 }
 
+/*******************************************/
+/* FORM */
+
+.form {
+  background: #054f77;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.form label {
+  font-size: 1.125em;
+  display: block;
+}
+
+.form__block {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  outline-color: #00aae4;
+  background: #ffffff;
+}

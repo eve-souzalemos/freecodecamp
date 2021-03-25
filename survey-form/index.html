@@ -14,35 +14,34 @@
     <div class="container">
       <section class="title">
         <h1 id="title" class="title__main">Programador Survey Form</h1>
-        <p id="description" class="title__subtitle">Programador, obrigado por responder este formulário e contribuir com
-          a comunidade</p>
+        <p id="description" class="title__subtitle">Programador, obrigado por responder este formulário</p>
       </section>
-      <form id="survey-form">
-        <div>
+      <form id="survey-form" class="form">
+        <div class="form__block">
           <label id="name-label" for="name">Nome
-            <input id="name" type="text" required placeholder="Nome">
+            <input class="form__input" id="name" type="text" required placeholder="Digite seu nome">
           </label>
         </div>
-        <div>
+        <div class="form__block">
           <label id="email-label" for="email">E-mail
-            <input id="email" type="email" required placeholder="E-mail">
+            <input class="form__input" id="email" type="email" required placeholder="Digite seu E-mail">
           </label>
         </div>
-        <div>
+        <div class="form__block">
           <label id="number-label" for="number">Idade
-            <input id="number" type="number" min="1" max="99" placeholder="Idade">
+            <input class="form__input" id="number" type="number" min="1" max="99" placeholder="Digite sua idade">
           </label>
         </div>
-        <div>
+        <div class="form__block">
           <p>Qual o seu lado da força?</p>
-          <select id="dropdown">
+          <select id="dropdown" class="form__input">
             <option disabled selected>Escolha uma opção</option>
             <option value="frontend">Front-End</option>
             <option value="backend">Back-End</option>
             <option value="fullstack">Full-Stack</option>
           </select>
         </div>
-        <div>
+        <div class="form__block">
           <p>Qual o seu nível?</p>
           <label>
             <input type="radio" name="level" value="junior">
@@ -57,7 +56,7 @@
             Sênio
           </label>
         </div>
-        <div>
+        <div class="form__block">
           <p>Frameworks</p>
           <label>
             <input type="checkbox" name="preferencias" value="react">
@@ -99,16 +98,12 @@
             <input type="checkbox" name="preferencias" value="rails">
             RubyOnRails
           </label>
-          <label>
-            <input type="checkbox" name="preferencias" value="outro">
-            Outro
-          </label>
         </div>
-        <div id="textarea">
+        <div id="textarea" class="form__block">
           <p>Comentários</p>
           <textarea name="comments" placeholder="Escreva aqui."></textarea>
         </div>
-        <div>
+        <div class="form__block">
           <button type="submit" id="submit">Enviar</button>
         </div>
 
