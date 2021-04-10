@@ -2,11 +2,12 @@
 body, h1, h2, p, ul, li, a {
   margin: 0px;
   padding: 0px;
+  font-size: 16px;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #6d92a2;
+  color: #8ec438;
 }
 
 ul {
@@ -24,4 +25,42 @@ img {
 
 * {
   box-sizing: border-box;
+}
+
+.header {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__logo {
+  margin: 0 10px;
+}
+
+.header__menu ul {
+  display: flex;
+  margin: 0 10px;
+}
+
+.header__menu ul li {
+  margin-left: 10px;
+}
+
+.header__menu ul li a {
+  display: block;
+  padding: 10px;
+  font-size: 1.25em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #8ec438;
+  border-left: 3px solid #8ec438;
+}
+
+.header__menu ul li a:hover {
+  color: #222222;
+  border-left: 3px solid #222222;
 }
