@@ -27,10 +27,19 @@ img {
   box-sizing: border-box;
 }
 
+/* HEADER */
+
 .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #222222;
+}
+
+.header__container {
   max-width: 960px;
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,6 +48,11 @@ img {
 
 .header__logo {
   margin: 0 10px;
+  
+}
+
+.header__logo a img {
+  padding: 20px;
 }
 
 .header__menu ul {
@@ -61,6 +75,38 @@ img {
 }
 
 .header__menu ul li a:hover {
-  color: #222222;
-  border-left: 3px solid #222222;
+  color: #ffffff;
+}
+
+/*Qualitys*/
+.qualitys {
+  max-width: 960px;
+  margin: 150px auto 80px auto;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 3px solid #222222;
+  border-bottom: 3px solid #222222;
+}
+
+.quality__blocks {
+  display: flex;
+  margin: 20px 10px;
+}
+
+.quality__img {
+  max-width: 100px;
+  margin: 15px 50px 15px 0px;
+}
+
+.quality__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quality__info h2 {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: .1em;
 }
