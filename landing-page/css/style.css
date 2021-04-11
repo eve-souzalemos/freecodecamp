@@ -52,7 +52,7 @@ img {
 }
 
 .header__logo a img {
-  padding: 20px;
+  padding: 20px 20px 20px 0px;
 }
 
 .header__menu ul {
@@ -109,4 +109,15 @@ img {
   font-size: 2em;
   font-weight: bold;
   letter-spacing: .1em;
+  margin-bottom: 5px;
 }
+
+/*Video*/
+
+.benefits {
+  max-width: 960px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
