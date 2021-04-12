@@ -224,3 +224,72 @@ img {
   letter-spacing: .1em;
   cursor: pointer;
 }
+
+/*FOOTER*/
+
+.footer {
+  background: #222222;
+}
+
+.footer__container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copy {
+  margin: 0px 10px;
+  align-self: flex-end;
+}
+
+.footer__contato {
+  margin: 0 10px;
+}
+
+.footer__contato h2 {
+  margin: 10px 0;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer__contato h2::after {
+  content: "";
+  display: block;
+  margin: 10px 0;
+  width: 90px;
+  height: 3px;
+  background: #8ec438;
+}
+
+.footer__contato ul li {
+  margin-bottom: 5px;
+}
+
+.footer__social ul{
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social ul li {
+  margin-right: 15px;
+}
+
+.footer__social ul li a {
+  display: block;
+  border: 3px solid #7fad5b;
+  padding: 10px;
+}
+
+.footer__social ul li a:hover {
+  border: 3px solid #ffffff;
+}
+
+.footer__social img {
+  max-width: 30px;
+}
+
